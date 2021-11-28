@@ -41,6 +41,8 @@ body{
 }
 .uno_logo{
     animation: movimiento 2.5s linear infinite;
+    z-index:-1;
+    position: relative;
 }
 .footer{
     margin: 1rem;
@@ -301,6 +303,19 @@ body{
     animation-duration: 3s;
     animation-delay: 4s;
 }
+.nav-link{
+    
+    width: 100%; 
+    
+    z-index:10;
+    
+}
+.nav-item {
+    
+  
+    
+
+}
 @keyframes burbujas{
     0%{
         bottom: 0;
@@ -317,6 +332,7 @@ body{
         opacity: 0;
     }
 }
+
 
 @keyframes movimiento{
     0%{
@@ -335,6 +351,20 @@ body{
         border: none;
         padding: 0px;
 
+    }
+    .nav-link{
+    
+        color: white !important;
+        background-color: black;
+        opacity: 0.6;
+       
+        
+
+        
+        
+    }
+    .navbar-expand-lg{
+        padding:  0px !important;
     }
     .footer{
         align-items: flex-start;

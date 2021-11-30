@@ -1,4 +1,40 @@
+.proyectos_imagen{
+    max-height: 250px;
+}
+.proyectos{
 
+
+    margin: auto;
+
+    /* IMPORTANTE */
+    text-align: center;
+
+}
+.proyectos_tipo{
+    display: inline-flexbox;
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem;
+
+    /* IMPORTANTE */
+    text-align: center;
+
+}
+.proyectos_tipo_uno{
+    display:inline-table;
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem;
+
+    /* IMPORTANTE */
+    text-align: center;
+}
+.proyectos_tipo_dos{
+    display:inline-table;
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem;
+}
 
 
 

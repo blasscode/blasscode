@@ -24,7 +24,7 @@
   justify-content: space-between;
   top: 0px;
   width: 100%; }
-  .bad_body {
+  .bad_header .bad_body {
     background: linear-gradient(black, black, #fb7167, #c51508) !important;
     display: grid;
     height: 100vh;
@@ -293,6 +293,32 @@ body {
     left: 35%;
     animation-duration: 3s;
     animation-delay: 4s; }
+
+.proyectos {
+  margin: auto;
+  /* IMPORTANTE */
+  text-align: center; }
+  .proyectos_imagen {
+    max-height: 250px; }
+  .proyectos_tipo {
+    display: inline-flexbox;
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem;
+    /* IMPORTANTE */
+    text-align: center; }
+  .proyectos_tipo_uno {
+    display: inline-table;
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem;
+    /* IMPORTANTE */
+    text-align: center; }
+  .proyectos_tipo_dos {
+    display: inline-table;
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem; }
 
 @keyframes burbujas {
   0% {

@@ -390,6 +390,44 @@ body{
      animation-delay: 4s;
  }
 }
+
+.proyectos{
+
+
+    margin: auto;
+
+    /* IMPORTANTE */
+    text-align: center;
+
+    &_imagen{
+    max-height: 250px;
+}
+
+&_tipo{
+    display: inline-flexbox;
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem;
+
+    /* IMPORTANTE */
+    text-align: center;
+
+}
+&_tipo_uno{
+    display:inline-table;
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem;
+
+    /* IMPORTANTE */
+    text-align: center;
+}
+&_tipo_dos{
+    display:inline-table;
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem;
+}}
 @keyframes burbujas{
     0%{
         bottom: 0;

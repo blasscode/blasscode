@@ -24,13 +24,14 @@
   justify-content: space-between;
   top: 0px;
   width: 100%; }
-  .bad_header .bad_body {
-    background: linear-gradient(black, black, #fb7167, #c51508) !important;
-    display: grid;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; }
+
+.bad_body {
+  background: linear-gradient(black, black, #fb7167, #c51508) !important;
+  display: grid;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
 
 body {
   background: linear-gradient(#fffbf4, #fffbf4, #67f4fb, #0877c5);

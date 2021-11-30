@@ -25,7 +25,8 @@ $color7:rgba(103, 244, 251, 0.2);
     top: 0px;
     width: 100%;
 }
-.bad_header{
+.bad{
+&_header{
     align-items: center;
     color: $color1 !important;
     font-size: 25px;
@@ -33,8 +34,8 @@ $color7:rgba(103, 244, 251, 0.2);
     justify-content: space-between;
     top: 0px;
     width: 100%;
-
-.bad_body{
+}
+&_body{
     background: linear-gradient($color2, $color2  , $color3, $color4) !important;
     display: grid;
     height: 100vh;

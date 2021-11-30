@@ -34,7 +34,7 @@ $color7:rgba(103, 244, 251, 0.2);
     top: 0px;
     width: 100%;
 
-&_body{
+.bad_body{
     background: linear-gradient($color2, $color2  , $color3, $color4) !important;
     display: grid;
     height: 100vh;

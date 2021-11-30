@@ -24,7 +24,7 @@
   justify-content: space-between;
   top: 0px;
   width: 100%; }
-  .bad_header_body {
+  .bad_body {
     background: linear-gradient(black, black, #fb7167, #c51508) !important;
     display: grid;
     height: 100vh;
